@@ -1,46 +1,14 @@
-# pytorch_lightning==1.3.2
-# transformers==4.6.0
-# Pillow==8.1.0
-# tqdm==4.56.0
-# ipdb==0.13.4
-# numpy==1.19.5
-# einops==0.3.0
-# pyarrow==2.0.0
-# sacred==0.8.2
-# pandas==1.1.5
-# timm==0.4.12
-# ftfy
-# torchvision~=0.8.2
-# torch~=1.7.1
-
-
-# Core dependencies
-numpy==1.26.4
-pandas==2.2.2
-pyarrow==15.0.2
-Pillow==9.5.0
-
-# Torch and vision
-torch==2.1.2
-torchvision==0.16.2
-pytorch_lightning==1.6.5
-PyYAML==6.0.1
-
-# Transformers and tokenizer
-transformers==4.41.0
-tokenizers==0.19.1
-
-# Logging and experiment tracking
-sacred==0.8.4
-ftfy==6.1.1
-einops==0.6.1
-ipdb==0.13.13
-
-# Utilities
-docopt==0.6.2
-munch==2.5.0
+pytorch_lightning==1.3.2
+transformers==4.6.0
+Pillow==8.1.0
 tqdm==4.56.0
-
-# Optional but safe additions
-matplotlib==3.7.2
-scikit-learn==1.2.2
+ipdb==0.13.4
+numpy==1.19.5
+einops==0.3.0
+pyarrow==2.0.0
+sacred==0.8.2
+pandas==1.1.5
+timm==0.4.12
+ftfy
+torchvision~=0.8.2
+torch~=1.7.1
