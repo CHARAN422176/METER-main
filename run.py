@@ -56,7 +56,7 @@ def main(_config):
         accelerator="gpu",
         num_nodes=_config["num_nodes"],
         precision=_config["precision"],
-        accelerator="ddp",
+        # accelerator="ddp",
         benchmark=True,
         deterministic=True,
         max_epochs=_config["max_epoch"] if max_steps is None else 1000,
