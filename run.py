@@ -69,13 +69,13 @@ def main(_config):
         accumulate_grad_batches=grad_steps,
         log_every_n_steps=10,
         # flush_logs_every_n_steps=10,
-        resume_from_checkpoint=_config["resume_from"],
+        # resume_from_checkpoint=_config["resume_from"],
         weights_summary="top",
         fast_dev_run=_config["fast_dev_run"],
         val_check_interval=_config["val_check_interval"],
     )
 
     if not _config["test_only"]:
-        trainer.fit(model, datamodule=dm)
+        trainer.fit(model, datamodule=dm,ckpt_path="/kaggle/input/meter-clip16-roberta/pytorch/default/1/meter_clip16_288_roberta_flickr.ckpt")
     else:
-        trainer.test(model, datamodule=dm)
+        trainer.test(model, datamodule=dm,ckpt_path="/kaggle/input/meter-clip16-roberta/pytorch/default/1/meter_clip16_288_roberta_flickr.ckpt")
