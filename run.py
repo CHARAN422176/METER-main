@@ -68,7 +68,7 @@ def main(_config):
         # replace_sampler_ddp=False,
         accumulate_grad_batches=grad_steps,
         log_every_n_steps=10,
-        flush_logs_every_n_steps=10,
+        # flush_logs_every_n_steps=10,
         resume_from_checkpoint=_config["resume_from"],
         weights_summary="top",
         fast_dev_run=_config["fast_dev_run"],
