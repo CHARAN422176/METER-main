@@ -70,7 +70,7 @@ def main(_config):
         log_every_n_steps=10,
         # flush_logs_every_n_steps=10,
         # resume_from_checkpoint=_config["resume_from"],
-        weights_summary="top",
+        # weights_summary="top",
         fast_dev_run=_config["fast_dev_run"],
         val_check_interval=_config["val_check_interval"],
     )
