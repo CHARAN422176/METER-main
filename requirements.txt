@@ -23,7 +23,8 @@ Pillow==9.5.0
 # Torch and vision
 torch==2.1.2
 torchvision==0.16.2
-pytorch_lightning==1.3.2  # adjust if needed, else can be latest compatible
+pytorch_lightning==1.6.5
+PyYAML==6.0.1
 
 # Transformers and tokenizer
 transformers==4.41.0
